@@ -1,0 +1,30 @@
+# Ambiente virtual
+.venv/
+
+# Cache / bytecode Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Arquivos de teste temporários
+.coverage
+.cache/
+pytest_cache/
+
+# Sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Arquivos de execução do app
+tasks.json
+
+# Logs
+*.log
+
+# Pacotes / build
+build/
+dist/
+*.egg-info/
