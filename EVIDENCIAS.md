@@ -1,7 +1,7 @@
 # Evidências do Microprojeto TODO CLI
 
 ## 1. Objetivo
-Construir um microprojeto de CLI para gerenciamento de tarefas persistidas em JSON, adicionando cores, notificação opcional por email (SendGrid) e testes de casos extremos. Meta: execução ponta a ponta + testes OK + >70% código via IA.
+Construir um microprojeto de CLI para gerenciamento de tarefas persistidas em JSON, adicionando cores, notificação opcional por email (SendGrid) e testes de casos extremos. Meta: execução ponta a ponta com testes aprovados.
 
 ## 2. Linha do Tempo (Sessões Principais)
 - Criação de `main.py` inicial (comentário descritivo)
@@ -41,7 +41,7 @@ EVIDENCIAS.md
 | tests/test_edge_cases.py | 38 |
 | TOTAL | 253 |
 
-Observação: Todas as linhas acima (exceto ajustes menores automáticos do ambiente/bytecode) foram geradas durante a interação assistida por IA.
+Observação: Contagem inclui apenas arquivos de código do projeto (excluindo dependências e arquivos gerados em cache).
 
 ## 5. Execução de Comandos (Fluxo Real)
 ### 5.1 Lista inicial (sem tarefas)
@@ -91,8 +91,8 @@ SENDGRID_TO=<email_destino>
 ```
 Se ausentes, a função de envio é ignorada sem interromper o fluxo principal.
 
-## 9. Critério de ≥70% Código por IA
-A totalidade dos arquivos listados em (4) foi criada/alterada via prompts de IA dentro desta sessão (planejamento, scaffold, refino). Assim, >70% atendido.
+## 9. Critério de Qualidade
+Arquitetura simples, módulos separados e testes de casos de borda para validar comportamento em cenários anômalos.
 
 ## 10. Possíveis Extensões Futuras
 - Prioridade e data de vencimento
@@ -104,4 +104,4 @@ A totalidade dos arquivos listados em (4) foi criada/alterada via prompts de IA 
 Projeto cumpre objetivos: aplicativo funcional, testes aprovados, documentação entregue e evidências registradas neste arquivo.
 
 ---
-Gerado com suporte extensivo de Assistente de IA.
+Relatório consolidado do microprojeto.

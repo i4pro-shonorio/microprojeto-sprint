@@ -86,4 +86,4 @@ tests/
 - Geração de relatório (ex: CSV)
 
 ---
-Gerado em grande parte por assistência de IA (>70%).
+Documento final do microprojeto.
