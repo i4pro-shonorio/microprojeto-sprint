@@ -1,5 +1,7 @@
 # TODO CLI (Microprojeto Sprint)
 
+![CI](https://github.com/i4pro-shonorio/microprojeto-sprint/actions/workflows/tests.yml/badge.svg)
+
 Aplicativo de linha de comando simples para gerenciar tarefas persistidas em `tasks.json`.
 
 ## Funcionalidades
@@ -76,14 +78,25 @@ tests/
   test_edge_cases.py
 ```
 
+## Integração Contínua
+A pipeline GitHub Actions (`.github/workflows/tests.yml`) executa a suíte de testes em Python 3.10, 3.11 e 3.12 a cada push ou pull request para `main`.
+
+## Changelog
+Ver `CHANGELOG.md` para histórico detalhado. Primeira versão: v0.1.0.
+
 ## Metas de Qualidade
 - Simples, legível, funções pequenas
 - Falhas de email não interrompem o fluxo principal
+- Testes de borda garantem comportamento previsível
 
-## Próximos Passos Sugeridos
-- Acrescentar prioridade / data limite
+## Roadmap Curto
+- Prioridade / data limite
 - Comando para editar descrição
 - Geração de relatório (ex: CSV)
+- Mais testes (cobrir editar quando implementado)
+
+## Licença
+Distribuído sob a licença MIT. Veja `LICENSE`.
 
 ---
 Documento final do microprojeto.
